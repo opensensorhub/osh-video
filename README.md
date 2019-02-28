@@ -1,3 +1,7 @@
+**THIS REPOSITORY HAS BEEN ARCHIVED ON Feb 28th 2019.**
+
+**PLEASE USE THE [OSH-ADDONS REPOSITORY](https://github.com/opensensorhub/osh-addons) FOR ANY NEW WORK.**
+
 # OSH for Video
 
 This repository contains various add-on modules for handling everything that has to do with video, including support for various video cameras, live video streaming and playback.
