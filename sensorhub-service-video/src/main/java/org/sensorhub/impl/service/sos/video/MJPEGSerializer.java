@@ -27,6 +27,8 @@ import org.vast.ows.OWSRequest;
 
 public class MJPEGSerializer implements ISOSCustomSerializer
 {
+    public static String MJPEG_MIME_TYPE = "video/x-motion-jpeg";
+
     private static final String MIME_TYPE_MULTIPART = "multipart/x-mixed-replace; boundary=--myboundary"; 
     private static final byte[] MIME_BOUNDARY_JPEG = new String("--myboundary\r\nContent-Type: image/jpeg\r\nContent-Length: ").getBytes();
     private static final byte[] END_MIME = new byte[] {0xD, 0xA, 0xD, 0xA};
